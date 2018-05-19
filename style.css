@@ -46,6 +46,37 @@
 	}
 
 }
+
+#ultimate{
+	border-top: 2px solid black;
+	padding: 15px;
+}
+
+#ultimate:hover ~ .robots .eyes{
+	animation: magnify 0.4s infinite linear alternate;
+
+}
+#ultimate:hover ~ .robots .left_arm{ 
+	 animation: vibrate_arm 0.1s infinite linear alternate;
+} 
+#ultimate:hover ~ .robots .right_arm{ 
+	 animation: vibrate_armr 0.1s infinite linear alternate;
+} 
+#ultimate:hover ~ .robots .head{
+	animation: changewidth 0.6s infinite alternate;
+	width: 300px;
+    /*transition: 1s ease-in-out;*/
+}
+#ultimate:hover ~ .robots .upper_body{
+	animation: vibrate 0.6s infinite linear alternate;
+}
+#ultimate:hover ~ .robots .right_leg{ 
+    animation: vibrate_legr 0.1s infinite linear alternate;
+}
+#ultimate:hover ~ .robots .left_leg{ 
+    animation: vibrate_leg 0.1s infinite linear alternate;
+}
+
 .text {
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
