@@ -1,3 +1,58 @@
+@keyframes vibrate_leg{
+	to{
+		transform: rotate(+30deg);
+	}
+
+}
+@keyframes vibrate_legr{
+	to{
+		transform: rotate(-30deg);
+	}
+
+}
+@keyframes changewidth{ /* For head */
+	from{
+		width:200px;
+	}
+	to{
+		width: 300px;
+	}
+}
+
+@keyframes vibrate{
+	from{
+		transform: rotate(-20deg);
+	}
+	to{
+		transform: rotate(+20deg);
+	}
+
+}
+
+@keyframes magnify{
+	100%{
+		transform: scale(1.2);
+	}
+}
+@keyframes vibrate_arm{
+	to{
+		transform: rotate(+90deg);
+	}
+
+}
+@keyframes vibrate_armr{
+	to{
+		transform: rotate(-90deg);
+	}
+
+}
+.text {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 3em;
+	font-style: italic;
+	border-bottom: 2px solid black;
+}
 
 .robots {
 	display: flex;
